@@ -1,0 +1,26 @@
+table{border:2px red;
+margin:5px;
+background-color:yellow;
+} 
+ol
+{
+border:2px red;
+margin:5px;
+background-color:solid blue;
+}
+ul 
+{
+border:2px red;
+margin:5px;
+background-color:pink;
+}
+th td
+{
+border:2px red;
+background-color:lavender;
+}
+td
+{
+border:2px red;
+background-color:skyblue;
+}
