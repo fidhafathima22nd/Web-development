@@ -1,0 +1,44 @@
+<html>
+<head>
+<title> Registration Form</title>
+</head>
+<body>
+<h1><center>registration form</center></h1>
+<form>
+<fieldset><legend>user information</legend>
+<label for="name">Name</label>
+<select>
+      <option>Mr</option>
+      <option>Mrs</option>
+      <option>Miss</option>
+</select><input type="text id="name"required><br><br>
+<label for="phone class="c3">phone
+<input type="tel" required></label>
+<label>email<input type ="email" required</label></fieldset>
+<label>address<textarea name="address"required></textarea></label><br><br>
+<label>Gender</label>
+<input type="radio"name="gender"value="Male">
+<label for="Male">Male</label>
+<input type="radio"name="gender"value="Female">
+<label for="Female">female</label>
+<input type="radio"name="gender"value="other">
+<label for="other">other</label><br><br>
+<label>languages known</label>
+<input type="checkbox"name="languages known"value="english">
+<label for="english">english</label>
+<input type="checkbox"name="malayalam"value="malayalam">
+<label for="malayalam">malayalam</label>
+<input type="checkbox"name="hindi"value="hindi">
+<label for="hindi">hindi</label><br><br>
+<label for="course">course</label>
+<select required>
+      <option>course</option>
+      <option>maths</option>
+      <option>physics</option>
+      <option>chemistry</option>
+</select><br><br>
+<button type ="submit">submit</button>
+<button type="reset ">reset</button>
+</form>
+</body>
+</html>
