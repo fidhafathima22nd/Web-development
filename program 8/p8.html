@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>program8</title>
+</head>
+<style>
+img{
+border:3px solid black;
+border-radius:70%;
+position:absolute;
+top:40%;
+left:35%;
+padding:16px 30px;
+}
+p{
+position:absolute;
+top:75%;
+left:43%;
+}
+</style>
+
+<body>
+<img src="pic1.jpeg" id="image" onmouseover="one()" onmouseout="two()">
+<p id="p1">
+</p>
+<script>
+function one()
+{
+document.getElementById("image").src="pic2.jpeg";
+document.getElementById("p1").innerHTML="onmouseover";
+document.getElementById("p1").style.color="blue";
+}
+function two()
+{
+document.getElementById("image").src="pic3.jpeg";
+document.getElementById("p1").innerHTML="onmouseout";
+document.getElementById("p1").style.color="red";
+}
+</script>
+
+</body>
+</html>
